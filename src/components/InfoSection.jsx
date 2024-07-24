@@ -7,6 +7,8 @@ const InfoSection = () => {
     setExperiences(experiences.filter((exp) => exp.id !== id));
   }
 
+  //TODO: Just a TODO for now
+
   return (
     <div>
       {experiences.map((exp) => (
