@@ -4,7 +4,6 @@ const InfoSection = () => {
   const { experiences, setExperiences } = React.useContext(ExperienceInfo);
 
   function handleDelete(id) {
-    console.log("clicked");
     setExperiences(experiences.filter((exp) => exp.id !== id));
   }
 
